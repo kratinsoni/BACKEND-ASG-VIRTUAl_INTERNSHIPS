@@ -62,7 +62,7 @@ npm install
 PORT=5000
 ```
 
-### 3. To generate migration files for your database, use:
+### 3. To generate migration files for your database and make sure to delete previous migrations before running this command or it might cause a issue, use:
 
 ```
 npm run migration:generate -- path/to/migrations
